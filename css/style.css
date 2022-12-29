@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --percentage: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(226, 154, 19);
+}
+h4 {
+  text-align: center;
+}
+
+.graph-buttons {
+  width: 200px;
+  margin: auto;
+}
+
+.population,
+.languages {
+  color: white;
+  background-color: rgb(226, 154, 19);
+  border-color: rgb(226, 154, 19);
+  padding: 5px;
+  margin: 5px;
+}
+
+.populationResult,
+.languageResult {
+  box-sizing: border-box;
+  margin-top: 10px;
+  /* color: white; */
+}
+
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 100%;
+  border-spacing: 20px;
+}
+
+td,
+th {
+  /* border: 1px solid #6aaf79; */
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  /* padding: 20px; */
+  /* margin-bottom: 10px; */
+}
+/* .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 70%;
+     background-color: #04AA6D;
+  } */
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  height: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(226, 154, 19) var(--percentage),
+    transparent var(--percentage)
+  );
+  /* display: block; */
+}
+td:first-child {
+  width: max-content;
+  display: block;
+}
