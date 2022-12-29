@@ -71,7 +71,7 @@ tr {
     rgb(226, 154, 19) var(--percentage),
     transparent var(--percentage)
   );
-  /* display: block; */
+  border-radius: 5px;
 }
 td:first-child {
   width: max-content;
